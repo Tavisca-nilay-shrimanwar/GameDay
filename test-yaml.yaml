@@ -1,0 +1,8 @@
+actions:
+    action: "Deploy to ECS"
+    type: "AWS_ECS"
+    integration: "my_aws_integration" # Name of your AWS integration in the CI/CD platform
+    service: "my-ecs-service"        # Name of your ECS service
+    cluster: "my-ecs-cluster"        # Name of your ECS cluster
+    local_path: "taskDefinition.json" # Path to the JSON file containing the task definition
+    region: "us-east-1"              # AWS region where your ECS resources are located
