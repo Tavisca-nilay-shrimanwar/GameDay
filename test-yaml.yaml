@@ -1,0 +1,11 @@
+actions:
+  action: Deploy to ECS
+  cluster: my-ecs-cluster
+  desired: 0
+  integration: my_aws_integration
+  local_path: taskDefinition.json
+  max: 0
+  min: 0
+  region: us-east-1
+  service: my-ecs-service
+  type: AWS_ECS

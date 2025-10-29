@@ -1,2 +1,1 @@
-requests
-boto3
+This is the new content for the file 23424 kj234234 234234.
